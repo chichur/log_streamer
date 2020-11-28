@@ -19,5 +19,5 @@ while True:
         if int(offset) == total_size:
             break
     else:
-        print 'Ошибка', data.get('reason'), offset
+        print 'Ошибка', data.get('reason')
         break
